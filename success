@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solutions, C.A </title>
+    <meta name="description"  content="IA.Solutions, C.A — Automatizamos tu negocio con Inteligencia Artificial. Servicios: automatizaciones, agentes IA y consultoría de procesos inteligentes." />
+    <link rel="shortcut icon" href="img/icono2.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Animacion con Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module" ></script>
+
+    <!-- Enlace a EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="nav">
+          <div class="brand">
+            <div class="logo">
+              <img src="img/icono.png" alt="IA Solutions" width="48" height="50" />
+            </div>
+            <div>
+              <h1>Solutions, C.A</h1>
+              <b>Automatiza HOY... Lidera Mañana!</b>
+            </div>
+          </div>
+
+          <nav class="menu">
+            <a href="#benefits">Beneficios</a>
+            <a href="#services">Servicios</a>
+            <a href="#process">Proceso</a>
+            <!--<a href="#contact">Contacto</a>-->
+            <a class="btn-cta" href="#contact">Solicita consultoría</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div>
+            <div class="eyebrow"></div>
+            <h2>
+              Automatizamos tu negocio con<br /><span style="color: var(--accent)"
+                >Inteligencia Artificial</span
+              >
+            </h2>
+            <p>
+              Flujos inteligentes y agentes IA que impulsan la productividad y la eficiencia de tu
+              empresa.
+            </p>
+            <div class="actions">
+              <a class="btn-cta" href="#contact">Solicita una consultoría gratuita</a>
+              <a class="ghost" href="#services">Conoce nuestros servicios</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-card">
+              <!-- En el bloque derecho donde tienes el recuadro oscuro -->
+              <dotlottie-wc
+                src="https://lottie.host/7b817036-a588-4220-ab38-9909d2a11f24/nHVLihHXTm.lottie"
+                style="width: 280px; height: 280px"
+                autoplay
+                loop
+              ></dotlottie-wc>
+            </div>
+          </div>
+        </section>
+
+        <section id="benefits">
+          <div class="section-title">
+            <div class="kicker">BENEFICIOS</div>
+            <h3>Qué resolvemos?</h3>
+          </div>
+          <div class="grid-3">
+            <div class="card">
+              <div class="icon"><img src="img/tiempo.png" alt="Ícono de ahorro de tiempo" /></div>
+              <h4>Ahorro de tiempo</h4>
+              <p class="muted">
+                Automatiza tareas repetitivas para que tu equipo se enfoque en lo importante.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon"><img src="img/calidad.png" alt="Ícono de ahorro de tiempo" /></div>
+              <h4>Menos errores</h4>
+              <p class="muted">Procesos precisos y consistentes gracias a la IA.</p>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <img src="img/crecimiento.png" alt="Ícono de ahorro de tiempo" />
+              </div>
+              <h4>Crecimiento escalable</h4>
+              <p class="muted">Expande tus operaciones sin aumentar costos.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services">
+          <div class="section-title">
+            <div class="kicker">SERVICIOS</div>
+            <h3>Nuestros servicios</h3>
+          </div>
+          <div class="services">
+            <div class="service-item card">
+              <div class="icon"><img src="img/check.png" alt="Ícono de ahorro de tiempo" /></div>
+              <div>
+                <h4>Automatizaciones empresariales</h4>
+                <p class="muted">Diseñamos flujos automáticos en todas tus áreas.</p>
+              </div>
+            </div>
+            <div class="service-item card">
+              <div class="icon"><img src="img/check.png" alt="Ícono de ahorro de tiempo" /></div>
+              <div>
+                <h4>Agentes de IA</h4>
+                <p class="muted">
+                  Asistentes inteligentes y bots conversacionales adaptados a tus procesos.
+                </p>
+              </div>
+            </div>
+            <div class="service-item card">
+              <div class="icon"><img src="img/check.png" alt="Ícono de ahorro de tiempo" /></div>
+              <div>
+                <h4>Consultoría IA</h4>
+                <p class="muted">
+                  Transformamos tus operaciones con una estrategia basada en automatización.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="process">
+          <div class="section-title">
+            <div class="kicker">PROCESO</div>
+            <h3>Cómo trabajamos</h3>
+          </div>
+          <div class="timeline">
+            <div class="step card">
+              <div class="num">1</div>
+              <h4>Diagnóstico</h4>
+              <p class="muted">Analizamos tus flujos y detectamos oportunidades.</p>
+            </div>
+            <div class="step card">
+              <div class="num">2</div>
+              <h4>Diseño</h4>
+              <p class="muted">Planificamos soluciones IA personalizadas.</p>
+            </div>
+            <div class="step card">
+              <div class="num">3</div>
+              <h4>Implementación</h4>
+              <p class="muted">Integramos las automatizaciones en tus sistemas.</p>
+            </div>
+            <div class="step card">
+              <div class="num">4</div>
+              <h4>Soporte</h4>
+              <p class="muted">Monitoreo continuo y mejoras constantes.</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">
+            <div class="kicker">RESULTADOS</div>
+            <h3>Estimaciones de nuestrio resultados</h3>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <div>Eficiencia promedio</div>
+              <h4>+40%</h4>
+              <p>Incremento en productividad.</p>
+            </div>
+            <div class="stat">
+              <div>Reducción de errores</div>
+              <h4>75%</h4>
+              <p>Procesos más confiables.</p>
+            </div>
+            <div class="stat">
+              <div>Entrega</div>
+              <h4>&lt;8 semanas</h4>
+              <p>Implementación completa.</p>
+            </div>
+          </div>
+        </section>
+
+        <!--<section>
+          <div class="section-title">
+            <div class="kicker">PLANES</div>
+            <h3>Rango de inversión</h3>
+          </div>
+          <div class="plans">
+            <div class="plan card">
+              <h4>Starter</h4>
+              <p>1.000–3.000 USD • Ideal para pilotos.</p>
+              <button class="btn-primary">Solicitar Starter</button>
+            </div>
+            <div class="plan card">
+              <h4>Growth</h4>
+              <p>3.000–5.000 USD • Procesos múltiples.</p>
+              <button class="btn-primary">Solicitar Growth</button>
+            </div>
+            <div class="plan card">
+              <h4>Premium</h4>
+              <p>5.000–10.000 USD • Soluciones a medida.</p>
+              <button class="btn-primary">Solicitar Premium</button>
+            </div>
+          </div>
+        </section>-->
+
+        <section id="contact">
+          <div class="section-title">
+            <div class="kicker">CONTACTO</div>
+            <h3>¿Listo para transformar tu negocio?</h3>
+          </div>
+          <div class="contact">
+            <div class="card">
+              <form onsubmit="return handleSubmit(event)">
+                <div class="form-row">
+                  <input type="text" name="name" placeholder="Nombre" required />
+                  <input type="text" name="company" placeholder="Empresa" />
+                </div>
+                <div style="margin-top: 12px">
+                  <input type="email" name="email" placeholder="Email" required />
+                </div>
+                <div style="margin-top: 12px">
+                  <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Cuéntanos qué deseas automatizar"
+                  ></textarea>
+                </div>
+                <div style="margin-top: 12px">
+                  <button class="btn-primary" type="submit">Enviar solicitud</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="card">
+              <h4>Contacto directo</h4>
+              <p>
+                Email:
+                <a href="mailto:contacto@iasolutions.com" style="color: var(--accent)"
+                  >argenislzpe@gmail.com</a
+                >
+              </p>
+              <p>
+                Tel/WhatsApp:
+                <a href="tel:+000000000" style="color: var(--accent)">+56 930 372 372</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>© <span id="year"></span> IA.Solutions, C.A — Todos los derechos reservados.</footer>
+    </div>
+
+    <script>
+        // Inicializar EmailJS
+        emailjs.init("t6ydKJJjo2qvuXa8u");
+
+        function handleSubmit(e) {
+          e.preventDefault();
+
+          const form = e.target;
+
+          emailjs.send("service_yj9o69p", "template_zuwc6j5", {
+              name: form.name.value,
+              company: form.company.value,
+              email: form.email.value,
+              message: form.message.value
+          })
+          .then(() => {
+              form.reset();
+              setTimeout(() => {
+                  window.location.href = "success.html";
+              }, 1000); // 1 segundo
+          })
+          .catch((error) => {
+              console.error("Error:", error);
+              alert("Hubo un problema enviando tu solicitud.");
+          });
+
+          return false;
+        }
+    </script>                                   
+
+
+
+  </body>
+</html>
