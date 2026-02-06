@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solutions, C.A </title>
+    <meta name="description"  content="IA.Solutions, C.A — Automatizamos tu negocio con Inteligencia Artificial. Servicios: automatizaciones, agentes IA y consultoría de procesos inteligentes." />
+    <link rel="shortcut icon" href="img/icono2.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Animacion con Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module" ></script>
+
+    <!-- Enlace a EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="nav">
+          <div class="brand">
+            <div class="logo">
+              <img src="img/icono.png" alt="IA Solutions" width="48" height="50" />
+            </div>
+            <div>
+              <h1>Solutions, C.A</h1>
+              <b>Automatiza HOY... Lidera Mañana!</b>
+            </div>
+          </div>
+
+          <nav class="menu">
+            <a href="#benefits">Beneficios</a>
+            <a href="#services">Servicios</a>
+            <a href="#process">Proceso</a>
+            <!--<a href="#contact">Contacto</a>-->
+            <a class="btn-cta" href="#contact">Solicita consultoría</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div>
+            <div class="eyebrow"></div>
+            <h2>
+              Automatizamos tu negocio con<br /><span style="color: var(--accent)"
+                >Inteligencia Artificial</span
+              >
+            </h2>
+            <p>
+              Flujos inteligentes y agentes IA que impulsan la productividad y la eficiencia de tu
+              empresa.
+            </p>
+            <div class="actions">
+              <a class="btn-cta" href="#contact">Solicita una consultoría gratuita</a>
+              <a class="ghost" href="#services">Conoce nuestros servicios</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-card">
+              <!-- En el bloque derecho donde tienes el recuadro oscuro -->
+              <dotlottie-wc
+                src="https://lottie.host/7b817036-a588-4220-ab38-9909d2a11f24/nHVLihHXTm.lottie"
+                style="width: 280px; height: 280px"
+                autoplay
+                loop
+              ></dotlottie-wc>
+            </div>
+          </div>
+        </section>
+
+        <section id="benefits">
+          <div class="section-title2">
+            <div class="kicker"></div>
+            <h3>Te contactaremos en unos minutos!! </h3>
+            <br><br><br><br>
+          <div style="text-align: center; margin-top: 20px;">
+                <a href="index.html" style="
+                    padding: 10px 20px;
+                    background: #13a4b4;
+                    color: #fff;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    display: inline-block;
+                ">
+                    Volver
+                </a>
+            </div>
+            <br><br><br>
+            <br>
+          </div>
+          
+      </main>
+
+      <footer>© <span id="year"></span> IA.Solutions, C.A — Todos los derechos reservados.</footer>
+    </div>
+
+  </body>
+</html>
